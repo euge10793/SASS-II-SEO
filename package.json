@@ -10,9 +10,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
-"watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euge10793/SASS-II-SEO.git"
+  },
+  "bugs": {
+    "url": "https://github.com/euge10793/SASS-II-SEO/issues"
+  },
+  "homepage": "https://github.com/euge10793/SASS-II-SEO#readme",
   "description": ""
 }
